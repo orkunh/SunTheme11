@@ -5,10 +5,19 @@
 
 <p align="center">
 
-Lightweight • Open Source • Privacy Friendly  
-Hafif • Açık Kaynak • Gizlilik Dostu
+<a href="https://github.com/orkunh/SunTheme11/releases/latest">
+<img src="https://img.shields.io/badge/⬇️_Download-Latest_Release-2ea44f?style=for-the-badge" alt="Download Latest Release">
+</a>
 
-Windows 11 • x64 • ARM64 • MIT License
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/github/v/release/orkunh/SunTheme11?style=flat-square">
+<img src="https://img.shields.io/github/license/orkunh/SunTheme11?style=flat-square">
+<img src="https://img.shields.io/badge/Windows-11-blue?style=flat-square">
+<img src="https://img.shields.io/badge/x64-Supported-success?style=flat-square">
+<img src="https://img.shields.io/badge/ARM64-Supported-success?style=flat-square">
 
 </p>
 
@@ -16,38 +25,36 @@ Windows 11 • x64 • ARM64 • MIT License
 
 # 🌍 Language / Dil
 
-🇺🇸 English • 🇹🇷 Türkçe
+🇺🇸 English | 🇹🇷 Türkçe
 
 ---
 
 # 🇺🇸 English
 
-## ✨ Features
+## ✨ Overview
 
-- 🌅 Automatic Light/Dark theme switching
-- 📍 Automatic approximate location detection
-- 🌍 Local sunrise & sunset calculation
-- 💾 Offline cached location
-- 🔄 Hybrid theme detection
-- 🚀 Automatic startup
-- 🔇 Silent background operation
-- ⚡ Very low CPU and memory usage
-- 💻 Windows 11 x64
-- 💻 Windows 11 ARM64
-
----
-
-## 🚀 Why SunTheme11?
-
-Windows can switch themes only at fixed times.
-
-SunTheme11 follows your **real local sunrise and sunset** automatically.
+SunTheme11 is a lightweight Windows 11 utility that automatically switches between Light Mode and Dark Mode based on your local sunrise and sunset.
 
 No schedules.
 
 No configuration.
 
-Install once and forget it.
+Just install it once and let it run quietly in the background.
+
+---
+
+## 🚀 Features
+
+- Automatic Light / Dark switching
+- Local sunrise & sunset calculation
+- Automatic approximate location detection
+- Offline cached location
+- Hybrid theme detection
+- Automatic startup
+- Silent background operation
+- Very low CPU & memory usage
+- Windows 11 x64
+- Windows 11 ARM64
 
 ---
 
@@ -70,42 +77,20 @@ Computer starts
         │
         ▼
  Theme correct?
-     ┌───────┐
- YES │       │ NO
-     ▼       ▼
+     ┌─────────┐
+ YES │         │ NO
+     ▼         ▼
  Sleep     Apply theme
- until      if needed
- next
- event
-```
-
----
-
-## 🏗 Architecture
-
-```text
-                Windows 11
-                     │
-                     ▼
-               SunTheme11.exe
-                     │
-      ┌──────────────┼──────────────┐
-      ▼              ▼              ▼
- Location      Sunrise/Sunset   Theme Watch
-      │              │              │
-      └──────────────┼──────────────┘
-                     ▼
-          Apply theme only if required
 ```
 
 ---
 
 ## 📦 Installation
 
-1. Download the correct package from **Releases**
-2. Extract the ZIP
-3. Run **Install.bat**
-4. Done
+1. Download the latest release.
+2. Extract the ZIP.
+3. Run **Install.bat**.
+4. Enjoy.
 
 ---
 
@@ -123,7 +108,7 @@ Computer starts
 
 ## 🔒 Privacy
 
-SunTheme11 requests only an approximate location from your public IP.
+SunTheme11 only uses your approximate public IP location to calculate sunrise and sunset.
 
 It does **NOT** collect:
 
@@ -139,17 +124,15 @@ It does **NOT** collect:
 
 ### Does it require Internet?
 
-Only for the first location detection.
+Only for the first location lookup.
 
-The last successful location is used while offline.
+After that, the last successful location is used.
 
-### Does it have a user interface?
+### Does it have a GUI?
 
 No.
 
 SunTheme11 runs silently in the background.
-
-No configuration window.
 
 ### Windows 10?
 
@@ -159,36 +142,34 @@ Not supported.
 
 Supported.
 
-Native x64 and ARM64 builds are available.
-
 ---
 
 # 🇹🇷 Türkçe
 
-## ✨ Özellikler
+## ✨ Genel Bakış
 
-- 🌅 Gün doğumu ve gün batımına göre otomatik tema değişimi
-- 📍 Yaklaşık konum algılama
-- 🌍 Yerel güneş saatlerini hesaplama
-- 💾 Çevrimdışı son konumu kullanma
-- 🔄 Hibrit tema algılama
-- 🚀 Otomatik başlangıç
-- 🔇 Sessiz arka plan çalışması
-- ⚡ Çok düşük işlemci ve bellek kullanımı
-- 💻 Windows 11 x64
-- 💻 Windows 11 ARM64
+SunTheme11, Windows 11 için geliştirilmiş hafif bir yardımcı uygulamadır.
+
+Bulunduğunuz konumdaki gerçek gün doğumu ve gün batımına göre Açık ve Koyu temayı otomatik olarak değiştirir.
+
+Saat ayarlamanıza gerek yoktur.
+
+Kurun ve arka planda sessizce çalışmasına izin verin.
 
 ---
 
-## 🚀 Neden SunTheme11?
+## 🚀 Özellikler
 
-Windows yalnızca belirlediğiniz saatlerde tema değiştirebilir.
-
-SunTheme11 bulunduğunuz konumdaki **gerçek gün doğumu ve gün batımını** takip eder.
-
-Saat ayarlamanıza gerek kalmaz.
-
-Bir kez kurun ve gerisini SunTheme11'e bırakın.
+- Otomatik Açık / Koyu tema geçişi
+- Yerel gün doğumu ve gün batımı hesaplama
+- Yaklaşık konum algılama
+- Çevrimdışı son konum desteği
+- Hibrit tema algılama
+- Otomatik başlangıç
+- Sessiz arka plan çalışması
+- Çok düşük işlemci ve bellek kullanımı
+- Windows 11 x64
+- Windows 11 ARM64
 
 ---
 
@@ -207,42 +188,17 @@ Bilgisayar açılır
  Gün doğumu / batımını hesaplar
         │
         ▼
- Windows temasını okur
+ Temayı kontrol eder
         │
         ▼
- Tema doğru mu?
-     ┌──────────┐
- EVET│          │HAYIR
-     ▼          ▼
- Bekle      Temayı uygula
- Sonraki
- olaya kadar
-```
-
----
-
-## 🏗 Mimari
-
-```text
-                Windows 11
-                     │
-                     ▼
-               SunTheme11.exe
-                     │
-      ┌──────────────┼──────────────┐
-      ▼              ▼              ▼
-   Konum      Gün Doğumu/Batımı   Tema Takibi
-      │              │              │
-      └──────────────┼──────────────┘
-                     ▼
-      Yalnızca gerektiğinde tema değiştir
+ Gerekliyse değiştirir
 ```
 
 ---
 
 ## 📦 Kurulum
 
-1. **Releases** bölümünden uygun paketi indirin.
+1. Son sürümü indirin.
 2. ZIP dosyasını çıkarın.
 3. **Install.bat** dosyasını çalıştırın.
 4. Hazır.
@@ -252,7 +208,7 @@ Bilgisayar açılır
 ## ✅ Test Edilen Özellikler
 
 - Windows yeniden başlatma
-- Çoklu yeniden başlatma testi
+- Çoklu yeniden başlatma testleri
 - Uyku modundan dönüş
 - Manuel tema değiştirme
 - Çevrimdışı son konumu kullanma
@@ -263,9 +219,9 @@ Bilgisayar açılır
 
 ## 🔒 Gizlilik
 
-SunTheme11 yalnızca yaklaşık konum belirlemek için genel IP adresinizi kullanır.
+SunTheme11 yalnızca gün doğumu ve gün batımı hesaplaması için yaklaşık konum bilgisi kullanır.
 
-Toplanmayan veriler:
+Aşağıdaki veriler toplanmaz:
 
 - Kişisel bilgiler
 - Telemetri
@@ -281,15 +237,13 @@ Toplanmayan veriler:
 
 Sadece ilk konum tespiti için.
 
-Daha sonra internet olmasa bile son başarılı konum kullanılmaya devam edilir.
+Daha sonra son başarılı konum kullanılmaya devam edilir.
 
-### Kullanıcı arayüzü var mı?
+### Arayüzü var mı?
 
 Hayır.
 
 SunTheme11 sessizce arka planda çalışır.
-
-Herhangi bir ayar penceresi bulunmaz.
 
 ### Windows 10 destekleniyor mu?
 
@@ -301,15 +255,13 @@ Yalnızca Windows 11 desteklenmektedir.
 
 Evet.
 
-Hem x64 hem ARM64 sürümleri bulunmaktadır.
-
 ---
 
 ## 🤝 Contributing / Katkıda Bulunma
 
-Bug reports, feature requests and pull requests are welcome.
+Bug reports, suggestions and pull requests are welcome.
 
-Hata bildirimleri, özellik önerileri ve katkılar memnuniyetle karşılanır.
+Hata bildirimleri, öneriler ve katkılar memnuniyetle karşılanır.
 
 ---
 
